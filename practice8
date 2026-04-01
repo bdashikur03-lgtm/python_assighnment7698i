@@ -1,0 +1,10 @@
+num1=range(1,100)
+for x in num1:
+    if x%3==0 and x%5==0:
+        print('fizzbuzz')
+    elif x % 3==0:
+        print('fizz',x)
+    elif x%5==0:
+        print('buzz',x)
+    else:
+        print(x)

@@ -1,0 +1,18 @@
+age=float(input('enter the age value'))
+if age<0:
+    print('all value must be positive ')
+        
+if age>0:
+    print('its valid value for defining the age')
+
+    if age<=1:
+        print('its infant')
+    elif age<=3:
+        print('its toddler')
+    elif age<=12:
+        print('its child')
+    elif age<=19:
+        print('its teenager')
+    else:
+        print('its adult')
+        

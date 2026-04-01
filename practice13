@@ -1,0 +1,7 @@
+while True:
+    text=input('enter the things')
+    if text=='stop'or text=='exit'or text=='over':
+        print('lets close this')
+        break
+    else:
+        print(f'u written {text} so its wrong')

@@ -1,0 +1,11 @@
+passs=input('enter the value')
+attemth=0
+while attemth<5:
+    attemth+=1
+    guess=input('enter the value')
+    if passs==guess:
+        print('its correct')
+        break
+    elif passs!=guess:
+        print('its not, try again')
+    print(attemth,'!')

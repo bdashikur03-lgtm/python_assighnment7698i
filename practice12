@@ -1,0 +1,13 @@
+num=int(input('enter the numnr'))
+chance=0
+while chance <5:
+    guess=int(input('enter the num'))
+    chance+=1
+    
+    if num==guess:
+        print('its correct')
+        break
+    elif num>guess:
+        print('its little low')
+    elif num<guess:
+        print('its little high')
