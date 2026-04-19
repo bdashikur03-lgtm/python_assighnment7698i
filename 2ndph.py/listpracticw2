@@ -1,0 +1,9 @@
+num=[1,2,3,4,5,22,40,45,50,43,23,54]
+max_num=num[0]
+for i in num:
+    if i>max_num:
+        max_num=i
+    if i<max_num:
+        max2=i
+        print(max2)
+print(max_num)
