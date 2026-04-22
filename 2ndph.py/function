@@ -1,0 +1,7 @@
+def age1(age2):
+    if age2 >=18:
+        print("he's kinda oldddd!")
+    else:
+        print('young')
+age2=int(input('enter the num'))
+age1(age2)
